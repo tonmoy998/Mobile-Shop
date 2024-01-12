@@ -1,0 +1,48 @@
+.signup {
+  .container {
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      max-height: 5rem;
+      .login-part {
+        width: fit-content;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    .row {
+      margin: 0 !important;
+      padding: 0;
+      .col-md-6 {
+        padding: 0;
+        margin: 0 !important;
+        .col-md-12 {
+          form {
+            .btn-success {
+              width: 100%;
+            }
+          }
+          .social {
+            // border: 2px solid;
+            justify-content: space-between;
+            align-items: center;
+            a {
+              width: 100%;
+              border: 0;
+              outline: 0;
+            }
+            .facebook {
+              background-color: rgb(24, 162, 241);
+            }
+            .google {
+              background-color: rgb(230, 48, 23);
+            }
+          }
+        }
+      }
+    }
+  }
+}

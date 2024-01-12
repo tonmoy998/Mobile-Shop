@@ -1,0 +1,41 @@
+.signup .container .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-height: 5rem;
+}
+.signup .container .title .login-part {
+  width: fit-content;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.signup .container .row {
+  margin: 0 !important;
+  padding: 0;
+}
+.signup .container .row .col-md-6 {
+  padding: 0;
+  margin: 0 !important;
+}
+.signup .container .row .col-md-6 .col-md-12 form .btn-success {
+  width: 100%;
+}
+.signup .container .row .col-md-6 .col-md-12 .social {
+  justify-content: space-between;
+  align-items: center;
+}
+.signup .container .row .col-md-6 .col-md-12 .social a {
+  width: 100%;
+  border: 0;
+  outline: 0;
+}
+.signup .container .row .col-md-6 .col-md-12 .social .facebook {
+  background-color: rgb(24, 162, 241);
+}
+.signup .container .row .col-md-6 .col-md-12 .social .google {
+  background-color: rgb(230, 48, 23);
+}
+
+/*# sourceMappingURL=signup.css.map */

@@ -1,0 +1,162 @@
+.sales {
+  padding: 2rem 1rem;
+  position: relative;
+}
+.sales .btn-filter {
+  display: none;
+  z-index: 100000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+}
+.sales .btn-filter i {
+  font-size: 1em;
+}
+.sales .btn-filter:focus {
+  border: 2px solid rgb(48, 44, 44);
+}
+.sales .controls {
+  max-width: fit-content;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.sales .controls button {
+  margin: 0.2rem;
+  color: #fff;
+}
+.sales .p-search {
+  position: relative;
+}
+.sales .p-search input {
+  font-size: 1.1em;
+  color: #000;
+  padding: 0.2rem 0.7rem;
+  border-radius: 8px;
+  outline: none;
+}
+.sales .p-search i {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+.sales .col-md-4 .col-md-12 {
+  border-radius: 0.8rem !important;
+  margin: 0.5rem;
+  position: relative;
+  padding: 1rem 0.5rem;
+  box-shadow: 0 0px 3px rgba(15, 215, 155, 0.5);
+}
+.sales .col-md-4 .col-md-12 .btn-cart {
+  width: fit-content;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.sales .col-md-4 .col-md-12 .whistlist {
+  width: 2rem;
+  height: 2rem;
+}
+.sales .col-md-4 .col-md-12 .whistlist i {
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+.sales .col-md-4 .col-md-12 .save {
+  width: fit-content;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.8em;
+  font-family: "ADLaM Display", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.sales .col-md-4 .col-md-12 .img-fluid {
+  max-width: 16rem;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.sales .col-md-4 .col-md-12 .dollar {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+.sales .col-md-4 .col-md-12 .btn-cart {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem !important;
+}
+.sales .col-md-4 .col-md-12 .ratings {
+  position: relative;
+  margin-top: -0.8rem;
+  margin-left: 0.2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  height: 1rem;
+  box-sizing: border-box;
+}
+.sales .col-md-4 .col-md-12 .ratings i {
+  font-size: 0.9em;
+}
+.sales .col-md-4 .col-md-12 .ratings p {
+  font-size: 0.95em;
+  margin-top: 1rem;
+}
+.sales .col-md-4 .col-md-12 .p-details {
+  margin-top: -1.5rem;
+  padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .sales {
+    padding: 1rem 0.5rem;
+  }
+  .sales .btn-filter {
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    top: 1rem;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+  }
+  .sales .h1 {
+    text-align: left !important;
+    padding: 0 1rem;
+  }
+  .sales .show {
+    height: auto !important;
+    overflow: visible;
+    padding: 0.5rem;
+    transition: 1.2s;
+  }
+  .sales .controls {
+    flex-wrap: wrap;
+    height: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(221, 221, 221);
+    overflow: hidden;
+    background-color: #fff;
+  }
+  .sales .controls .p-search input {
+    max-width: 90% !important;
+    margin: 0.2rem auto;
+    border: 0 !important;
+    border-bottom: 2px solid rgb(40, 35, 35);
+  }
+  .sales .controls button {
+    font-size: 0.9em;
+    margin: 0qrem;
+    color: #fff;
+  }
+}
+
+/*# sourceMappingURL=sale.css.map */

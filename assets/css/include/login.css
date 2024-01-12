@@ -1,0 +1,51 @@
+.login {
+  min-height: 100vh;
+}
+.login .container {
+  padding-top: 5rem;
+}
+.login .container .row .col-md-6 .video-box {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+}
+.login .container .row .col-md-6 .video-box img {
+  min-width: 30rem;
+}
+.login .container .row .login-right {
+  padding: 2rem 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.login .container .row .login-right .form-control {
+  padding: 0.5rem 1rem;
+  font-size: 1.1em;
+}
+.login .container .row .login-right .btn-primary {
+  display: flex !important;
+  font-size: 1.1em;
+  color: white;
+  width: 100% !important;
+  margin: 0 auto !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+.login .container .row .login-right .forgot {
+  width: 100% !important;
+  height: fit-content !important;
+  text-align: right;
+  padding: 0.5rem 2rem;
+}
+.login .container .row .login-right .forgot:focus {
+  border: 0 !important;
+  outline: 0 !important;
+}
+.login .container .row .login-right .login-register {
+  width: 100%;
+}
+.login .container .row .login-right .login-register:focus {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+/*# sourceMappingURL=login.css.map */

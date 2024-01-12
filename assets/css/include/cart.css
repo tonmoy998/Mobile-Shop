@@ -1,0 +1,82 @@
+.cart {
+  padding: 2rem 1rem;
+  font-size: 1.2em;
+  min-height: 100vh;
+  width: 100%;
+}
+.cart .row {
+  background-color: rgb(250, 255, 255);
+}
+.cart .flex-btns {
+  width: 100%;
+  min-width: fit-content;
+  justify-content: space-between;
+  max-width: 14rem;
+}
+.cart .flex-btns .btn {
+  margin: 0;
+  padding: 0;
+  color: rgb(67, 61, 61);
+  outline: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+}
+.cart .total-price {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 30rem;
+}
+.cart .btn-dark {
+  border: 2px solid;
+}
+.cart .left {
+  padding: 1rem;
+  justify-content: space-between;
+}
+.cart .left .img-fluid {
+  max-width: 15rem;
+}
+.cart .left .quantity {
+  max-width: 6rem;
+}
+.cart .left .details {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .left .details .color-bg {
+  background-color: rgb(141, 41, 234);
+  width: 3rem;
+  height: 2rem;
+  display: flex;
+  margin: 0 auto;
+}
+.cart .left .details .color,
+.cart .left .details .ram {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.cart .right {
+  flex-direction: column;
+}
+.cart .right .d-flex {
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.cart .right .form-group input,
+.cart .right .form-group button {
+  margin: 0;
+  border-radius: 0 !important;
+  font-size: 1em;
+  padding: 0.3rem 0.6rem;
+}
+.cart .text-grey {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-style: normal;
+  color: rgb(67, 61, 61);
+}
+
+/*# sourceMappingURL=cart.css.map */

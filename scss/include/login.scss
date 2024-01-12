@@ -1,0 +1,54 @@
+.login {
+  min-height: 100vh;
+  .container {
+    padding-top: 5rem;
+    .row {
+      .col-md-6 {
+        .video-box {
+          width: fit-content;
+          display: flex;
+          margin: 0 auto;
+          img {
+            min-width: 30rem;
+          }
+        }
+      }
+      .login-right {
+        padding: 2rem 1rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        .form-control {
+          padding: 0.5rem 1rem;
+          font-size: 1.1em;
+        }
+        .btn-primary {
+          display: flex !important;
+          // padding: 1rem auto;
+          font-size: 1.1em;
+          color: white;
+          width: 100% !important;
+          margin: 0 auto !important;
+          align-items: center !important;
+          justify-content: space-around !important;
+        }
+        .forgot {
+          width: 100% !important;
+          height: fit-content !important;
+          text-align: right;
+          padding: 0.5rem 2rem;
+          &:focus {
+            border: 0 !important;
+            outline: 0 !important;
+          }
+        }
+        .login-register {
+          width: 100%;
+          &:focus {
+            border: 0 !important;
+            outline: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

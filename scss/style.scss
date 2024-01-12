@@ -1,0 +1,20 @@
+@use "custom";
+@use "include/colors.scss";
+@use "include/fonts.scss";
+@use "include/global.scss";
+@use "include/sale.scss";
+@use "include/nav.scss";
+@use "include/signup.scss";
+@use "include/watch.scss";
+@use "include/brands.scss";
+@use "include/footer.scss";
+@use "include/cart.scss";
+@use "include/login.scss";
+@use "include/product.scss";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}

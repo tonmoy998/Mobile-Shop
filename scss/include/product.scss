@@ -1,0 +1,86 @@
+.product {
+  .container {
+    .row {
+      .col-md-6 {
+        background-color: rgb(250, 253, 253);
+        padding: 1rem;
+        .video-box {
+          box-shadow: 0 0 4px rgba(222, 222, 222, 0.56);
+          border-radius: 12px;
+          margin: 1rem 0;
+          display: flex;
+          justify-content: space-around;
+          align-self: center;
+          .img-fluid {
+            max-width: 22rem;
+          }
+        }
+        .links {
+          display: flex !important;
+          margin: 0 auto !important;
+          width: fit-content;
+          a {
+            margin: 0 0.5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+        }
+      }
+      .details {
+        padding: 1rem;
+        del {
+          text-decoration-line: line-through;
+          color: #000;
+        }
+        .text {
+          line-height: 1rem;
+        }
+        .icons {
+          margin: 1rem 0;
+          // border: 2px solid;
+          i {
+            font-size: 2.35em;
+            margin: 0.5rem 0;
+          }
+          .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-right: 1rem;
+          }
+        }
+        .ram-box {
+          padding: 1rem;
+          border-radius: 7px;
+          border: 1px solid;
+          &:hover {
+            background-color: #000;
+            color: white;
+            cursor: pointer;
+            transition: 1.2s ease-in-out;
+          }
+        }
+        .colors {
+          .color {
+            width: 2rem;
+            height: 2rem;
+          }
+          .color-purple {
+            background-color: purple;
+          }
+          .color-dark {
+            background-color: #000;
+          }
+          .color-silver {
+            background-color: silver;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: rgb(226, 230, 230);
+  }
+}

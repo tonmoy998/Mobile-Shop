@@ -1,0 +1,27 @@
+.f-adlam {
+  font-family: "ADLaM Display", sans-serif;
+}
+
+.f-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.f-open {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.f-roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.f-titan {
+  font-family: "Titan One", sans-serif;
+}
+
+.f-bold {
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=fonts.css.map */

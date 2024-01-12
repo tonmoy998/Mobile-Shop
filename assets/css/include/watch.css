@@ -1,0 +1,60 @@
+.watch {
+  border-radius: 8px;
+  margin: 0;
+}
+.watch .container {
+  border-radius: 12px;
+  background-color: rgb(251, 250, 250);
+  padding: 2rem 0;
+}
+.watch .container #watch {
+  position: relative;
+  border-radius: 8px;
+}
+.watch .container #watch .video-box {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(15, 215, 155, 0.8);
+}
+.watch .container #watch .video-box .save {
+  width: fit-content;
+  color: white;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 0.8em;
+}
+.watch .container #watch .video-box .details {
+  margin-top: -3rem;
+  display: flex;
+  max-height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.watch .container #watch .video-box .details .dollar {
+  font-size: 0.8em;
+  margin-top: 0.5rem;
+}
+.watch .container #watch .video-box .details .price {
+  font-size: 1em;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #000;
+}
+.watch .container #watch .video-box .btn-cart {
+  display: flex;
+  margin: 0.5rem auto;
+  width: fit-content;
+  padding: 0.5rem 1.2rem;
+}
+.watch .container #watch .video-box .whistlist {
+  position: absolute;
+  right: 8%;
+  bottom: 10%;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=watch.css.map */
