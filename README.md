@@ -14,6 +14,8 @@
 - [x] Boolean
 - [x] OOP (Object Oriented Programming )
 - [x] Loop
+- [x] Array
+- [x] Functions
 - [x] PHP prepare statements
 - [x] Hashing For extra Security
 - [x] Jquery Plugins
