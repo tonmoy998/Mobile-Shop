@@ -1,6 +1,13 @@
 # Screenshots of the project
 <h3 align="center">Mobile Shop</h3>
 
+## ✨ Build with
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,jquery,php" />
+  </a>
+</p>
+
 ![Page 1](https://github.com/tonmoy998/Mobile-Shop/blob/main/screenshots/page1.png)
 
 ![Page 2](https://github.com/tonmoy998/Mobile-Shop/blob/main/screenshots/page2.png)
