@@ -23,6 +23,8 @@
 - [x] Mysql Basic queries  
 
 ###  System info 
+<p> OS  : Ubuntu (i3 DE)</p>
+<p> IDE : Neovim</p>
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=linux,neovim" />
