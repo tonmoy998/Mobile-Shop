@@ -1,5 +1,6 @@
 # Screenshots of the project
 <h3 align="center">Mobile Shop</h3>
+
 ![Page 1](https://github.com/tonmoy998/Mobile-Shop/blob/main/screenshots/page1.png)
 
 ![Page 2](https://github.com/tonmoy998/Mobile-Shop/blob/main/screenshots/page2.png)
