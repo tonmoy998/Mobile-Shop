@@ -16,11 +16,11 @@
 - [x] Loop
 - [x] PHP prepare statements
 - [x] Hashing For extra Security
-- [x] Jquery Plugns
+- [x] Jquery Plugins
 - [x] Javascript Fetch for live php actions
 - [x] Mysql Basic queries  
 
-### System info 
+###  System info 
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=linux,neovim" />
@@ -28,7 +28,7 @@
 </p>
 
 
-##Project Screenshots
+### Project Screenshots
 ![Page 1](https://github.com/tonmoy998/Mobile-Shop/blob/main/screenshots/page1.png)
 
 ![Page 2](https://github.com/tonmoy998/Mobile-Shop/blob/main/screenshots/page2.png)
