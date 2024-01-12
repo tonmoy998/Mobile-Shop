@@ -16,7 +16,7 @@ if ($error === "invalidPwd") {
   echo '
     <div class="video-box popup">
 <div class="alert alert-success" role="alert">
-  Your account is successfully logined!.
+  Your account is successfully created!.
   <button class="btn btn-cross">
   <i class="fa-solid fa-xmark"></i>
   </button>
@@ -72,6 +72,17 @@ if ($error === "invalidPwd") {
     <div class="video-box popup">
 <div class="alert alert-success" role="alert">
   You have successfully logout your account!
+  <button class="btn btn-cross">
+  <i class="fa-solid fa-xmark"></i>
+  </button>
+</div>
+  </div>
+    ';
+} elseif ($error == "logined") {
+  echo '
+    <div class="video-box popup">
+<div class="alert alert-success" role="alert">
+  You have successfully logined your account!
   <button class="btn btn-cross">
   <i class="fa-solid fa-xmark"></i>
   </button>
