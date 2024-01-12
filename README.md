@@ -1,7 +1,7 @@
 <h3 align="center">Mobile Shop</h3>
 
 ##  Build with
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,bootstrap,jquery,php" />
   </a>
